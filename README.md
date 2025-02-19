@@ -14,3 +14,5 @@ Ce projet est destiné à valider les connaissances en DevOps des élèves de 3�
 ![Tests](https://github.com/idealogiks/DevOps/actions/workflows/test.yml/badge.svg)
 Il passe mais je n'ai pas compris parce qu'il n'y a qu'un truc à tester mais on parle de plusieurs tests.. 
 Au moins le test en question fonctionne et ça c'est le principal
+
+![Deployement](https://devopsidgladys.netlify.app)
