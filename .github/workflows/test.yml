@@ -13,7 +13,7 @@ jobs:
       - name: Installer Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 17
 
       - name: Installer les dépendances
         run: npm install
@@ -23,3 +23,7 @@ jobs:
 
       - name: Exécuter les tests unitaires
         run: npm test
+
+     - name: Debug en cas d'erreur
+        if: failure()
+        run: cat test-results.xml
