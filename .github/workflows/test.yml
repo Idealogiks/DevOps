@@ -24,6 +24,6 @@ jobs:
       - name: Exécuter les tests unitaires
         run: npm test
 
-     - name: Debug en cas d'erreur
+      - name: Debug en cas d'erreur
         if: failure()
         run: cat test-results.xml
