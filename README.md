@@ -11,4 +11,4 @@ Ce projet est destiné à valider les connaissances en DevOps des élèves de 3�
 
 ## Test Results
 
-![Tests](https://github.com/<utilisateur>/<repo>/actions/workflows/test.yml/badge.svg)
+![Tests](https://github.com/idealogiks/DevOps/actions/workflows/test.yml/badge.svg)
